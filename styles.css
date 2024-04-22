@@ -54,27 +54,28 @@ body{
 /* CIRCLE BUTTON */
 .BurnsCutsButtons {
     position: relative;
-    margin-top: 40%; /* Adjust the value to move the buttons down */
+    margin-top: 20%; 
 }
-.circle-button {
-    width: 125px; 
-    height: 125px; 
-    padding: 20px; 
-    background-color: #1E90FF; 
-    color: white; 
-    border: none; 
-    border-radius: 50%; 
-    cursor: pointer; 
-    margin-bottom: 20px;
-    font-size: 20px;
+.square-button {
+    width: 400px; 
+    height: 90px;
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #1E90FF;
+    color: white;
+    font-size: 40px;
     text-align: center;
-    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    margin-top: 10px;
 }
-.circle-button:hover {
-    background-color: #e6410d; 
+
+.square-button:hover {
+    background-color: #0056b3;
 }
-.circle-button:active {
-    background-color: #b23008; 
+
+.square-button:active {
+    background-color: #003366;
 }
 /* BURNS OVERLAY */
 .Boverlay {  
